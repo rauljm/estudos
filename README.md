@@ -1,1 +1,1 @@
-# estudos
+Using examples of Python Cookbook to studdy a little. :) 
