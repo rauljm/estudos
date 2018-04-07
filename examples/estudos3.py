@@ -13,4 +13,4 @@ def using_itemgetter(dicio, item_to_be_sorted):
 
 def main():
     dicio = [{'id': 1, 'item': 5}, {'id': 3, 'item': 4}]
-    print (using_itemgetter(dicio, 'item'))
+    print(using_itemgetter(dicio, 'item'))

@@ -41,9 +41,9 @@ def is_number_greater_than_9990(num):
 def using_filter_with_gererator_expression():
     num_greater_than_9998 = list(filter(is_number_greater_than_9990, generator_list_comprehensions_if_pair()))
     for num in num_greater_than_9998:
-        print (num)
+        print(num)
 
 
 def using_compress_operator():
     compressed = list(compress(gerenate_a_bigger_list(), generator_list_comprehensions_treating_pair()))
-    print (compressed)
+    print(compressed)

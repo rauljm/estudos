@@ -10,7 +10,7 @@ def using_ordered_dict():
     orderdict['fuu'] = 5
 
     for key in orderdict:
-        print (key, orderdict[key])
+        print(key, orderdict[key])
 
 
 def using_zip_with_dicio():
@@ -22,12 +22,12 @@ def using_zip_with_dicio():
     dicio['bli'].add(3)
     dicio['blo'].add(4)
 
-    print (max(zip(dicio.values(), dicio.keys())))
+    print(max(zip(dicio.values(), dicio.keys())))
 
 
 def using_slices():
     lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     a = slice(2, 6)
 
-    print (a)
-    print (lista[a])
+    print(a)
+    print(lista[a])
